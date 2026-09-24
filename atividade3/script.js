@@ -8,5 +8,9 @@ function calcular() {
     
     resultado = 180 -(nota1trim + nota2trim);
     
-    alert(resultado);
+    if(resultado <= 0){
+        alert("parabéns! você esta aprovado.")
+    } else{
+        alert("Você ainda precisa tirar " + resultado + " no terceiro trimestre")
+    }
 }
