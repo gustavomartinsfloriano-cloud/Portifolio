@@ -1,0 +1,40 @@
+
+body {
+    background: #202030;
+    color: white;
+    font-family: Arial;
+    text-align: center;
+}
+
+#jogo {
+    width: 500px;
+    height: 300px;
+    background: white;
+    margin: 20px auto;
+    position: relative;
+    overflow: hidden;
+}
+
+#jogador {
+    width: 25px;
+    height: 25px;
+    background: blue;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+
+#alvo {
+    width: 25px;
+    height: 25px;
+    background: red;
+    border-radius: 50%;
+    position: absolute;
+    left: 400px;
+    top: 200px;
+}
+
+button {
+    padding: 10px 20px;
+    cursor: pointer;
+}
